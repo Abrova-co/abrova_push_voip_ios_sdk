@@ -1,0 +1,23 @@
+# Xcode
+build/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
