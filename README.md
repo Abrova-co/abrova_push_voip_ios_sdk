@@ -26,8 +26,13 @@ The SDK is published on [Abrova Center](https://center.abrova.ir).
 
 ### CocoaPods
 
+Add Abrova Center's spec repository at the top of your `Podfile` (the second `source` line keeps public pods working), then the pod:
+
 ```ruby
-pod 'AbrovaPushVoip', :git => 'https://center.abrova.ir/abrova/abrova-push-voip-ios-sdk.git', :tag => '0.1.2'
+source 'https://center.abrova.ir/abrova/specs.git'
+source 'https://cdn.cocoapods.org/'
+
+pod 'AbrovaPushVoip', '~> 0.1'
 ```
 
 ### Swift Package Manager
